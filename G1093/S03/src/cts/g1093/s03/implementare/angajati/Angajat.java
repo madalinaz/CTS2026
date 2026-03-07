@@ -1,6 +1,6 @@
-package cts.g1093.s02.implementare.angajati;
+package cts.g1093.s03.implementare.angajati;
 
-import cts.g1093.s02.implementare.cim.CIM;
+import cts.g1093.s03.implementare.cim.CIM;
 
 public abstract class Angajat implements IPayable{
     //incapsulare

@@ -1,4 +1,4 @@
-package cts.g1093.s02.implementare.angajati;
+package cts.g1093.s03.implementare.angajati;
 
 public interface IPayable {
     //public

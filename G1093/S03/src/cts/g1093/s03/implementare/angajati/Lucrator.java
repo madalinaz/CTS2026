@@ -1,8 +1,8 @@
-package cts.g1093.s02.implementare.angajati;
+package cts.g1093.s03.implementare.angajati;
 
-import cts.g1093.s02.implementare.cim.CIM;
-import cts.g1093.s02.implementare.exceptii.ExceptieTaxa;
-import cts.g1093.s02.implementare.taxare.TaxeNormale;
+import cts.g1093.s03.implementare.cim.CIM;
+import cts.g1093.s03.implementare.exceptii.ExceptieTaxa;
+import cts.g1093.s03.implementare.taxare.TaxeNormale;
 
 public class Lucrator extends Angajat{
     private double sporDeRisc;

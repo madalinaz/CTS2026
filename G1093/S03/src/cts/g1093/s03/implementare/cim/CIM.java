@@ -1,4 +1,4 @@
-package cts.g1093.s02.implementare.cim;
+package cts.g1093.s03.implementare.cim;
 
 public class CIM {
     private String clauze;
