@@ -13,9 +13,6 @@ public class Main {
         companie1.adaugaAngajat(new Manager("M3",2,100.0,2000, "3333"));
         companie1.adaugaAngajat(new Lucrator("Gigel", 1200, 0.2, "1234"));
 
-
-
         System.out.println(companie1.getSalariu());
-
     }
 }
