@@ -1,7 +1,8 @@
 package cts.curs.c03.Singleton.EagerInitialization;
 
 public class SingletonEager {
-    private static final SingletonEager instance = new SingletonEager();
+    private static final SingletonEager instance
+            = new SingletonEager();
     //to add SingletonData
     private int ct;
 
