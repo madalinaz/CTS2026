@@ -24,5 +24,9 @@ public class Main {
 
         restaurant.afisareMese();
 
+        //Constructorul clasei Restaurant primeste nr de mese
+        //adauga acel nr de mese in mapa
+        //vreau sa aveti o restrictie maxima de mese(max 200 de mese)
+        //daca depasim restrictia, aruncam exceptie
     }
 }
