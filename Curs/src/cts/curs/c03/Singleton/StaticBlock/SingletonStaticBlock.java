@@ -4,7 +4,7 @@ public class SingletonStaticBlock {
     private static SingletonStaticBlock instance;
 
     private SingletonStaticBlock() {
-
+        //work upon singleton data
     }
 
     static {

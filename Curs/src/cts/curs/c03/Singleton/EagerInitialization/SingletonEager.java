@@ -12,6 +12,7 @@ public class SingletonEager {
 
     public static SingletonEager getInstance() {
         //instance = new SingletonEager();
+        //return new SingletonEager();
         return instance;
     }
 
