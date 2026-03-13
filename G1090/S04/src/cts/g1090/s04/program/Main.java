@@ -1,8 +1,8 @@
-package cts.g1089.s04.ex1.program;
+package cts.g1090.s04.program;
 
-import cts.g1089.s04.ex1.implementare.Masa;
-import cts.g1089.s04.ex1.implementare.Ospatar;
-import cts.g1089.s04.ex1.implementare.Restaurant;
+import cts.g1090.s04.implementare.Masa;
+import cts.g1090.s04.implementare.Ospatar;
+import cts.g1090.s04.implementare.Restaurant;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -16,18 +16,13 @@ public class Main {
         restaurant.addMasa(new Masa(2));
         restaurant.addMasa(new Masa(3));
         restaurant.addMasa(new Masa(4));
-        restaurant.addMasa(new Masa(5));
-
-       // restaurant.addAll(10);
-
         restaurant.afisareMese();
 
-        ospatar1.preluareComanda("Pizza, cola",2);
-        ospatar2.preluareComanda("Pizza, cola",1);
-        ospatar2.preluareComanda("Pizza, cola",4);
-        ospatar1.preluareComanda("Pizza, cola",3);
-        ospatar1.afisareSituatieMese();
-        ospatar2.afisareSituatieMese();
+        ospatar1.preluareComanda("Pizza",2);
+        ospatar1.preluareComanda("Pizza",3);
+        ospatar2.preluareComanda("Pizza",1);
+
+        restaurant.afisareMese();
 
     }
 }
