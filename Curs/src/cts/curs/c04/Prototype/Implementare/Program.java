@@ -29,7 +29,6 @@ public class Program {
             System.out.println(contractParty2);
         }
 
-
         //testare shallow-copy fara Prototype
         System.out.println("\nTestare shallow-copy fara Prototype");
         if(contractCorporate1.getListaClauze() == contractCorporate2.getListaClauze())
