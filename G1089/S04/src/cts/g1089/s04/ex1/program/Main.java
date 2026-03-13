@@ -26,5 +26,6 @@ public class Main {
         ospatar1.preluareComanda("Pizza, cola",3);
         ospatar1.afisareSituatieMese();
         ospatar2.afisareSituatieMese();
+
     }
 }
