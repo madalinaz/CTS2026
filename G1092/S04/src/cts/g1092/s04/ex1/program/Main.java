@@ -31,9 +31,24 @@ public class Main {
 
         ospatar1.preluareClient(3);
         ospatar2.preluareClient(1);
-        ospatar2.preluareClient(2);
+        ospatar2.preluareClient(4);
         ospatar1.preluareClient(5);
         ospatar1.afisareMese();
         ospatar2.afisareMese();
+
+        //de adaugat si metoda care elibereaza masa, adica debarasareMasa
+        //de gestionat exceptiile in cel putin un caz intre preluare client si debarasare masa
+        //de adaugat o alta metoda de preluareClient in care clientul NU isi alege el singur masa, ci ospatarul alege prima masa disponibila
+        //(se vor adauga alte metode necesare si in clasa Restaurant)
+        //de regandit clasa Masa, astfel incat sa contina si campurile: nr scaune, esteAfara
+        //cu aceste modificari, vreau ca in metoda preluareClient,
+        // sa se tina cont de client (cate persoane, si daca doreste sau nu afara, sau poate ii este indiferent)
+
+        //O modalitate de populare cu un numar de mese(versiunea 1 in care masa are doar id si disponibilitate) inca de la inceput
+        //atunci cand este construita instanta, apoi sa nu se mai permita modificari
+
+        //ex separat. Un generator de ID-uri unice ->Singleton (in stil DRPCIV) ( sa poata genera un ID unic random dar care NU a aparut si NU
+        //a fost folosit pana atunci, sau sa se poata cere un ID preferential)
+        //daca se doreste, acest generator se poate integra in clasa Masa
     }
 }
