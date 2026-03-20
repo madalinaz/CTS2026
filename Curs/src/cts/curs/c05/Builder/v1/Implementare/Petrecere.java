@@ -5,7 +5,8 @@ public class Petrecere {
 	private boolean areBaloane;
 	private boolean areTort;
 	private boolean areArtificii;
-	
+
+	//aici vine zona obligatorie in functie de implementare sau Totul
 	Petrecere(int nrPersoane, boolean areBaloane, boolean areTort, boolean areArtificii) {
 		super();
 		this.nrPersoane = nrPersoane;
