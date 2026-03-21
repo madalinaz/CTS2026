@@ -35,7 +35,7 @@ public class APIDimensiuni {
         }
         List<Integer> dimensiuni = new ArrayList<Integer>(standardDimensiuni.get(marime));
         try {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             throw new RuntimeException(e);
