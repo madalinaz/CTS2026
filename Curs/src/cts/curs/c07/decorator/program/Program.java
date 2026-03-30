@@ -8,6 +8,7 @@ import cts.curs.c07.decorator.implementare.PizzaVegetariana;
 
 public class Program {
 
+
 	public static void main(String[] args) {
 		APizza pizza = new PizzaVegetariana();
 		System.out.println(pizza.getComponente());
