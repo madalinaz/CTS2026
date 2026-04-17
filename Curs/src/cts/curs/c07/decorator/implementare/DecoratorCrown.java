@@ -13,7 +13,6 @@ public class DecoratorCrown extends ADecoratorPizza{
 
 	@Override
 	public int getPret() {
-		// TODO Auto-generated method stub
 		return super.getPret() + 10;
 	}
 	

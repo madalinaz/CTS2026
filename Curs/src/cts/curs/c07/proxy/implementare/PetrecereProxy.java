@@ -1,9 +1,9 @@
 package cts.curs.c07.proxy.implementare;
 
 public class PetrecereProxy implements IPetrecere {
-	private Petrecere petrecere;
+	private IPetrecere petrecere;
 
-	public PetrecereProxy(Petrecere petrecere) {
+	public PetrecereProxy(IPetrecere petrecere) {
 		super();
 		this.petrecere = petrecere;
 	}

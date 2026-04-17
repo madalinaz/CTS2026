@@ -18,7 +18,7 @@ public class Main {
 
         Client cl1 = new Client("Gigel", 20);
         Client cl2 = new Client("Costel", 12);
-        Petrecere petrecere = new Petrecere("24.12.2022", listaInvitati);
+        IPetrecere petrecere = new Petrecere("24.12.2022", listaInvitati);
         petrecere.adaugaParticipant(cl2);
 
         System.out.println("Afisare dupa proxy");
