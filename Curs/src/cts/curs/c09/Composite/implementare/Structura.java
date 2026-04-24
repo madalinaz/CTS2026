@@ -5,8 +5,8 @@ import java.util.List;
 
 
 public class Structura extends ANod{
-	List<ANod> structura = new ArrayList<>();
-	String numeStructura;//eticheta
+	private List<ANod> structura = new ArrayList<>();
+	private String numeStructura;//eticheta
 	
 	public Structura(String numeStructura){
 		this.numeStructura = numeStructura;

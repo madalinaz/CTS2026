@@ -4,6 +4,7 @@ public class Comanda {
 	private String produs;
 	private int cantitate;
 	private int grad;
+	//in loc de grad, sa stochez mancare si bautura comandata
 	
 	public Comanda(String produs, int cantitate, int grad) {
 		this.produs = produs;

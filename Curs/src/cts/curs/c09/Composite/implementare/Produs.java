@@ -2,8 +2,8 @@ package cts.curs.c09.Composite.implementare;
 
 public class Produs extends ANod{
 	
-	String denumire;
-	int pret;
+	private String denumire;
+	private int pret;
 	
 	public Produs(String denumire, int pret){
 		this.denumire = denumire;

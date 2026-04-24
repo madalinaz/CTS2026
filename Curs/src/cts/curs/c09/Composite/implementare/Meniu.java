@@ -3,7 +3,7 @@ package cts.curs.c09.Composite.implementare;
 
 public class Meniu{
 
-	ANod structura;
+	ANod structura;//nodul radacina
 	String numeRestaurant;
 	
 	public Meniu(ANod structura, String numeRestaurant){
