@@ -14,6 +14,7 @@ public class Main {
         IHandler handler1=new HandlerANAF();
         //IHandler handler2=new HandlerVechime();
         //IHandler handler3=new HandlerNivelSalariu();
+
         handler1.setNextHandler(new HandlerVechime());
         handler1.getNextHandler().setNextHandler(new HandlerNivelSalariu());
 
