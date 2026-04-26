@@ -15,6 +15,7 @@ public class MeniuRestaurant {
 
 	//meth care seteaza "din exterior" strategia aleasa
 	public void setStrategieAlegere(IProcesabil strategieAlegere){
+
 		this.strategieAlegere = strategieAlegere;
 	}
 	

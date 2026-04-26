@@ -11,6 +11,7 @@ public class Ospatar {
 	}
 	
 	public void preiaComanda(IComanda comanda) {
+
 		this.listaComenzi.add(comanda);
 	}
 	

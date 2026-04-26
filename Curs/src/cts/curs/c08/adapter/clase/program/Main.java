@@ -11,7 +11,8 @@ public class Main {
 
         //RESTAURANT B
         System.out.println("RESTAURANT B");
-        IEvaluareClientFirmaB evaluareB = new EvaluareClientFirmaB();
+        //IEvaluareClientFirmaB evaluareB = new EvaluareClientFirmaB();
+        IEvaluareClientFirmaB evaluareB = new Adapter();
         int[] costuri = new int[]{100,200,300,400,1000};
         Client client = new Client("Gigel",5,costuri);
         evaluareB.analizaClientFirmaB(client);

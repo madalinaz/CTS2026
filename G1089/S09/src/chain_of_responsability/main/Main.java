@@ -12,10 +12,13 @@ public class Main {
 
         //creare lant responsabil creditare
         IHandler handler1=new HandlerANAF();
-        IHandler handler2=new HandlerVechime();
-        IHandler handler3=new HandlerNivelSalariu();
-        handler1.setNextHandler(handler2);
-        handler2.setNextHandler(handler3);
+        //IHandler handler2=new HandlerVechime();
+        //IHandler handler3=new HandlerNivelSalariu();
+        handler1.setNextHandler(new HandlerVechime());
+        handler1.getNextHandler().setNextHandler(new HandlerNivelSalariu());
+
+       // handler1.setNextHandler(handler2);
+       // handler2.setNextHandler(handler3);
 
 
         System.out.println( handler1.procesareCerere(p1,20,14));
@@ -25,7 +28,7 @@ public class Main {
 
         //to do
         // adaugare clasa banca tip wrapper pentru lant
-        //adugare in banca metoda shuffle, sa se schimbe ordinea handler ilor
+        // (*)adugare in banca metoda shuffle, sa se schimbe ordinea handler ilor
         //abstract handler( nu pot adauga mai mult in clasa abstracta?) clase prea redundante
 
     }
