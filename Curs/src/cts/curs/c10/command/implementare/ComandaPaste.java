@@ -12,6 +12,7 @@ public class ComandaPaste implements IComanda {
 
 	@Override
 	public void prelucreaza() {
+
 		this.bucatar.preparaPaste(tipPaste);
 	}
 
