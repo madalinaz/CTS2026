@@ -1,7 +1,7 @@
-package cts.curs.c11.state.program;
+package cts.curs.c12.state.program;
 
 
-import cts.curs.c11.state.implementare.Bucatar;
+import cts.curs.c12.state.implementare.Bucatar;
 
 public class Program {
 

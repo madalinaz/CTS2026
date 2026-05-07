@@ -1,4 +1,4 @@
-package cts.curs.c11.state.implementare;
+package cts.curs.c12.state.implementare;
 
 public abstract class AStare {
 	protected Bucatar bucatar;

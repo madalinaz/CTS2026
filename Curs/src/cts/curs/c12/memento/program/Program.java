@@ -1,8 +1,8 @@
-package cts.curs.c11.memento.program;
+package cts.curs.c12.memento.program;
 
 
-import cts.curs.c11.memento.implementare.Contract;
-import cts.curs.c11.memento.implementare.ManagerContracte;
+import cts.curs.c12.memento.implementare.Contract;
+import cts.curs.c12.memento.implementare.ManagerContracte;
 
 public class Program {
 

@@ -1,8 +1,8 @@
-package cts.curs.c11.template.program;
+package cts.curs.c12.template.program;
 
-import cts.curs.c11.template.implementare.Paste;
-import cts.curs.c11.template.implementare.Pizza;
-import cts.curs.c11.template.implementare.Preparat;
+import cts.curs.c12.template.implementare.Paste;
+import cts.curs.c12.template.implementare.Pizza;
+import cts.curs.c12.template.implementare.Preparat;
 
 public class Main {
     public static void main(String[] args) {

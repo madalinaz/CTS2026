@@ -1,4 +1,4 @@
-package cts.curs.c11.memento.implementare;
+package cts.curs.c12.memento.implementare;
 
 //clasa Originator din diagrama GoF
 public class Contract {

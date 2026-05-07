@@ -1,4 +1,4 @@
-package cts.curs.c11.template.implementare;
+package cts.curs.c12.template.implementare;
 
 public abstract class Preparat {
     public final void preparaPreparat() {
