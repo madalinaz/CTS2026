@@ -1,5 +1,6 @@
 package cts.g1091.s09.chainOfResponsability.main;
 
+import cts.g1091.s09.chainOfResponsability.facade.Banca;
 import cts.g1091.s09.chainOfResponsability.implementare.*;
 
 public class Main {
@@ -22,6 +23,11 @@ public class Main {
         //3. Sa se implementeze clasa Banca care este wrapper peste chain
         //*** 4. In banca metoda de shuffle (aranjare la cerere a ordinii din chain)
         //5. ce se mai poate adauga in AHandler ca zona comuna
+
+        //Utilizand FACADE
+        System.out.println("-----Utilizand Facade ca wrapper-----");
+        Banca banca = new Banca("BCR_ASE");
+        banca.procesareCerere(p,300,12);
 
     }
 }
