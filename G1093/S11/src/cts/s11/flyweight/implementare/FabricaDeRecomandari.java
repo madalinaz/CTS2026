@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FabricaDeRecomandari {
-    private static Map<String,Recomandare> colectieRecomandari;
+    private static Map<String,IRecomandare> colectieRecomandari;
     static{
         colectieRecomandari=new HashMap<>();
         colectieRecomandari.put("Sare-Zahar",new Recomandare("Evitarea consumului de zahar si apa"));
