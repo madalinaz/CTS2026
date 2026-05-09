@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MesajPrintareFactory {
-    private static Map<String, MesajPrintare> colectieMesaje = new HashMap<String, MesajPrintare>();
+    private static Map<String, IPrintare> colectieMesaje = new HashMap<String, IPrintare>();
 
     //versiune EAGER INIT
     static {
@@ -14,8 +14,8 @@ public class MesajPrintareFactory {
     }
 
     //propun o implementare de tip LATE INIT (in care populez mapa cu obiecte atunci cand ele sunt folosite pentru prima oara
-    public static MesajPrintare getMesaj(String tipMesaj) {
-        MesajPrintare mesaj = colectieMesaje.get(tipMesaj);
+    public static IPrintare getMesaj(String tipMesaj) {
+        IPrintare mesaj = colectieMesaje.get(tipMesaj);
         if(mesaj == null) {
             //este utilizat pentru prima oara
             mesaj = new MesajPrintare(tipMesaj);
