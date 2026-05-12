@@ -8,5 +8,4 @@ public void main() {
     flyweightFactory.getPersonaj().pozitionare(10, 100, canvas);
     flyweightFactory.getPersonaj().pozitionare(10, 100, canvas);
     flyweightFactory.getPersonaj().pozitionare(20, 100, canvas);
-
 }
