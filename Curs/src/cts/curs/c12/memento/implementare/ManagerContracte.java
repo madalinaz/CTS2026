@@ -13,7 +13,6 @@ public class ManagerContracte {
 	}
 	
 	public VersiuneContract recuperareVersiune(int i){
-
 		return listaVersiuni.get(i);
 	}
 }

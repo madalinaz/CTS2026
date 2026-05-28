@@ -12,7 +12,7 @@ public abstract class Preparat {
     protected abstract void gateste();
     protected abstract void monteazaInFarfurie();
 
-    protected void serveste() {
+    protected final void serveste() {
         System.out.println("Preparatul este servit clientului.");
     }
 }

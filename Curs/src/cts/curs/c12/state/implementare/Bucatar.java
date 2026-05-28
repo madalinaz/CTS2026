@@ -3,7 +3,7 @@ package cts.curs.c12.state.implementare;
 public class Bucatar {
 	private String  nume;
 	private int nrComenziInEfectuare;
-	AStare stare;
+	private AStare stare;
 	
 	public Bucatar(String nume, int nrComenziInEfectuare) {
 		super();
