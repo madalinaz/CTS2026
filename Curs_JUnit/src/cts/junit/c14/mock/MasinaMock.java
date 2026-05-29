@@ -25,16 +25,16 @@ public class MasinaMock implements IMasina{
 
     @Override
     public int getViteza() {
-        return 50;
+        return this.viteza;
     }
 
     @Override
     public String getNrInmatriculare() {
-        return "";
+        return this.nrInmatriculare;
     }
 
     @Override
     public boolean esteIncepator() {
-        return false;
+        return this.esteIncepator;
     }
 }
