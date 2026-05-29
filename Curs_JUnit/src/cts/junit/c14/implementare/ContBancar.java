@@ -1,6 +1,7 @@
 package cts.junit.c14.implementare;
 
 import cts.junit.c14.exceptii.ExceptieIBAN;
+import cts.junit.c14.exceptii.ExceptieSuma;
 
 public class ContBancar {
     private double soldCurent;
@@ -15,11 +16,14 @@ public class ContBancar {
         this.soldCurent=10;
     }
 
-    public void alimentareSold(double suma){
+    public void alimentareSold(double suma) throws ExceptieSuma {
+        if(suma<=0 || suma>MAX_TRANZACTIE) {
+            throw new ExceptieSuma();
+        }
         this.soldCurent += suma;
     }
 
-    public void transfer(double suma, ContBancar destinatie){
+    public void transfer(double suma, ContBancar destinatie) throws ExceptieSuma {
         this.soldCurent -= suma;
         destinatie.alimentareSold(suma);
     }
