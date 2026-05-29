@@ -48,5 +48,5 @@ public class TestMedie {
         //student cu mai multe note (deja avem testarea right)
     }
 
-
+//testare Ordering, Range, CrossCheck
 }
