@@ -49,7 +49,6 @@ public class TestAlimentareSuma {
         contBancar.alimentareSold(200.0);
         copie.alimentare2(200.0);
         assertEquals(copie.getSoldCurent(), contBancar.getSoldCurent(),0.01);
-
     }
 
     @Test
